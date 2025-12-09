@@ -43,10 +43,9 @@ function Cart({ items, total, onUpdateQuantity, onRemove, onClear, onClose }) {
                 <button className="clear-cart-button" onClick={onClear}>
                   Clear Cart
                 </button>
-
-                <Link to="/checkout" className="checkout-button-link" onClick={onClose}>
-                  <button className="checkout-button">Proceed to Checkout</button>
-                </Link>
+                <Link to="/checkout" className="checkout-button-link">
+                <button className="checkout-button">Proceed to Checkout</button>
+                </Link>;
               </div>
             </>
           )}
