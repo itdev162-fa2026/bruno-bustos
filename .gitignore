@@ -484,6 +484,7 @@ $RECYCLE.BIN/
 *.msm
 *.msp
 
+appsettings.Development.json
 # Windows shortcuts
 *.lnk
 
